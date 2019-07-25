@@ -1,13 +1,35 @@
 [
   {
-    "id": "icici-villages",
-    "label": "ICICI Villages",
+    "id": "icici-sector-villages",
+    "label": "ICICI Sector Villages",
     "queryType": "sample",
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "description": "Location, maginitude and magtype of 2.5+ magnitude earthquakes in california.",
-    "size": 54936,
+    "description": "Villages falling in sector mapped to ICICI rural branches.",
+    "size": 109471,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/config.json"
+    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector.png",
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector_config.json"
+  },
+  {
+    "id": "icici-star-villages",
+    "label": "ICICI Star Pocket Villages",
+    "queryType": "sample",
+    "description": "Villages falling in star pockets mapped to ICICI rural branches.",
+    "size": 38144,
+    "visible": true,
+    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star.png",
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star_pocket.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star_config.json"
+  },
+  {
+    "id": "icici-town-villages",
+    "label": "ICICI Town Sector Villages",
+    "queryType": "sample",
+    "description": "Villages falling in town sector mapped to ICICI rural branches.",
+    "size": 19706,
+    "visible": true,
+    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town.png",
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_sector.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_config.json"
   }
 ]

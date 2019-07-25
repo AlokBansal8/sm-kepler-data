@@ -6,7 +6,7 @@
     "description": "Villages falling in sector mapped to ICICI rural branches.",
     "size": 109471,
     "visible": true,
-    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector.png",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
     "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector.csv",
     "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector_config.json"
   },
@@ -17,7 +17,7 @@
     "description": "Villages falling in star pockets mapped to ICICI rural branches.",
     "size": 38144,
     "visible": true,
-    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star.png",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
     "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star_pocket.csv",
     "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star_config.json"
   },
@@ -28,7 +28,7 @@
     "description": "Villages falling in town sector mapped to ICICI rural branches.",
     "size": 19706,
     "visible": true,
-    "imageUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town.png",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
     "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_sector.csv",
     "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_config.json"
   }

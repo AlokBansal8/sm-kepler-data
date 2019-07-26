@@ -1,6 +1,6 @@
 [
     {
-      "origin": ["http://34.93.208.206:9199"],
+      "origin": ["http://34.93.208.206:9199","http://localhost:9199","http://203.122.20.74:9199","http://182.74.24.70:9199"],
       "responseHeader": ["Content-Type"],
       "method": ["GET"],
       "maxAgeSeconds": 3600

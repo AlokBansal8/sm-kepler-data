@@ -5,24 +5,24 @@
       "filters": [],
       "layers": [
         {
-          "id": "n8kmche",
+          "id": "d7pizj",
           "type": "point",
           "config": {
-            "dataId": "sol-6",
-            "label": "Branch",
+            "dataId": "nee3684a",
+            "label": "Point",
             "color": [
               218,
               112,
               191
             ],
             "columns": {
-              "lat": "catchment_branch_lat",
-              "lng": "catchment_branch_lng",
+              "lat": "latitude",
+              "lng": "longitude",
               "altitude": null
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 20,
+              "radius": 10,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -88,24 +88,190 @@
           }
         },
         {
-          "id": "50kx38n",
+          "id": "vx3vdtc",
           "type": "point",
           "config": {
-            "dataId": "sol-6",
-            "label": "Star Village",
+            "dataId": "nee3684a",
+            "label": "nearestbranch",
             "color": [
-              34,
-              63,
-              154
+              18,
+              92,
+              119
+            ],
+            "columns": {
+              "lat": "nearestbranchlatitude",
+              "lng": "nearestbranchlongitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "iq96f1",
+          "type": "point",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "ruralnearestbranch",
+            "color": [
+              77,
+              193,
+              156
+            ],
+            "columns": {
+              "lat": "ruralnearestbranchlatitude",
+              "lng": "ruralnearestbranchlongitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "y1478nn",
+          "type": "point",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "starvillage",
+            "color": [
+              119,
+              110,
+              87
             ],
             "columns": {
               "lat": "starvillagelat",
               "lng": "starvillagelng",
               "altitude": null
             },
-            "isVisible": true,
+            "isVisible": false,
             "visConfig": {
-              "radius": 15,
+              "radius": 10,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -171,15 +337,228 @@
           }
         },
         {
-          "id": "5ahh1mn",
+          "id": "av9vn6s",
+          "type": "point",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "catchment branch",
+            "color": [
+              23,
+              184,
+              190
+            ],
+            "columns": {
+              "lat": "catchment_branch_lat",
+              "lng": "catchment_branch_lng",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "7nzkfbh",
+          "type": "arc",
+          "config": {
+            "dataId": "nee3684a",
+            "label": " -> nearestbranch arc",
+            "color": [
+              146,
+              38,
+              198
+            ],
+            "columns": {
+              "lat0": "latitude",
+              "lng0": "longitude",
+              "lat1": "nearestbranchlatitude",
+              "lng1": "nearestbranchlongitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                10
+              ],
+              "targetColor": null
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "mz711en",
+          "type": "line",
+          "config": {
+            "dataId": "nee3684a",
+            "label": " -> nearestbranch line",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "columns": {
+              "lat0": "latitude",
+              "lng0": "longitude",
+              "lat1": "nearestbranchlatitude",
+              "lng1": "nearestbranchlongitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                10
+              ],
+              "targetColor": null
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "eywgq2e",
           "type": "geojson",
           "config": {
-            "dataId": "sol-6",
-            "label": "Boundary",
+            "dataId": "nee3684a",
+            "label": "6859",
             "color": [
-              77,
-              193,
-              156
+              183,
+              136,
+              94
             ],
             "columns": {
               "geojson": "geom"
@@ -189,9 +568,9 @@
               "opacity": 0.8,
               "thickness": 0.5,
               "strokeColor": [
-                119,
-                110,
-                87
+                255,
+                203,
+                153
               ],
               "colorRange": {
                 "name": "Global Warming",
@@ -268,12 +647,204 @@
             "radiusField": null,
             "radiusScale": "linear"
           }
+        },
+        {
+          "id": "xku09b",
+          "type": "icon",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "village co",
+            "color": [
+              248,
+              149,
+              112
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "icon": "village_co"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ]
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "x8rdd5d",
+          "type": "icon",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "district c",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "icon": "district_c"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ]
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "xa7qhz",
+          "type": "icon",
+          "config": {
+            "dataId": "nee3684a",
+            "label": "district n",
+            "color": [
+              231,
+              159,
+              213
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "icon": "district_n"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ]
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
         }
       ],
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "sol-6": [
+            "nee3684a": [
               "village_co",
               "census_nam",
               "tehsil_cod",
@@ -294,10 +865,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 25.514485447073998,
-      "longitude": 75.61392784515299,
+      "latitude": 25.54921863744122,
+      "longitude": 75.6286255069793,
       "pitch": 0,
-      "zoom": 10.762895083105711,
+      "zoom": 10.226482569368493,
       "isSplit": false
     },
     "mapStyle": {

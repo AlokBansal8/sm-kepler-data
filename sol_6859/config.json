@@ -1,894 +1,519 @@
 {
-  "version": "v1",
   "config": {
-    "visState": {
-      "filters": [],
-      "layers": [
-        {
-          "id": "d7pizj",
-          "type": "point",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "Point",
-            "color": [
-              218,
-              112,
-              191
-            ],
-            "columns": {
-              "lat": "latitude",
-              "lng": "longitude",
-              "altitude": null
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
+    "version": "v1",
+    "config": {
+      "visState": {
+        "filters": [],
+        "layers": [
+          {
+            "id": "u0msglg",
+            "type": "line",
+            "config": {
+              "dataId": "sol_6859",
+              "label": "Star to Pocket Vill",
+              "color": [
+                130,
+                154,
+                227
               ],
-              "filled": true
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
+              "columns": {
+                "lat0": "latitude",
+                "lng0": "longitude",
+                "lat1": "starvillagelat",
+                "lng1": "starvillagelng"
+              },
+              "isVisible": true,
+              "visConfig": {
+                "opacity": 0.8,
+                "thickness": 20,
+                "colorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "sizeRange": [
                   0,
-                  0
+                  10
                 ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "vx3vdtc",
-          "type": "point",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "nearestbranch",
-            "color": [
-              18,
-              92,
-              119
-            ],
-            "columns": {
-              "lat": "nearestbranchlatitude",
-              "lng": "nearestbranchlongitude",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
+                "targetColor": null
               },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "iq96f1",
-          "type": "point",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "ruralnearestbranch",
-            "color": [
-              77,
-              193,
-              156
-            ],
-            "columns": {
-              "lat": "ruralnearestbranchlatitude",
-              "lng": "ruralnearestbranchlongitude",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "y1478nn",
-          "type": "point",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "starvillage",
-            "color": [
-              119,
-              110,
-              87
-            ],
-            "columns": {
-              "lat": "starvillagelat",
-              "lng": "starvillagelng",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "av9vn6s",
-          "type": "point",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "catchment branch",
-            "color": [
-              23,
-              184,
-              190
-            ],
-            "columns": {
-              "lat": "catchment_branch_lat",
-              "lng": "catchment_branch_lng",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "7nzkfbh",
-          "type": "arc",
-          "config": {
-            "dataId": "nee3684a",
-            "label": " -> nearestbranch arc",
-            "color": [
-              146,
-              38,
-              198
-            ],
-            "columns": {
-              "lat0": "latitude",
-              "lng0": "longitude",
-              "lat1": "nearestbranchlatitude",
-              "lng1": "nearestbranchlongitude"
-            },
-            "isVisible": false,
-            "visConfig": {
-              "opacity": 0.8,
-              "thickness": 2,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "sizeRange": [
-                0,
-                10
-              ],
-              "targetColor": null
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "mz711en",
-          "type": "line",
-          "config": {
-            "dataId": "nee3684a",
-            "label": " -> nearestbranch line",
-            "color": [
-              246,
-              209,
-              138
-            ],
-            "columns": {
-              "lat0": "latitude",
-              "lng0": "longitude",
-              "lat1": "nearestbranchlatitude",
-              "lng1": "nearestbranchlongitude"
-            },
-            "isVisible": false,
-            "visConfig": {
-              "opacity": 0.8,
-              "thickness": 2,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "sizeRange": [
-                0,
-                10
-              ],
-              "targetColor": null
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "eywgq2e",
-          "type": "geojson",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "6859",
-            "color": [
-              183,
-              136,
-              94
-            ],
-            "columns": {
-              "geojson": "geom"
-            },
-            "isVisible": true,
-            "visConfig": {
-              "opacity": 0.8,
-              "thickness": 0.5,
-              "strokeColor": [
-                255,
-                203,
-                153
-              ],
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radius": 10,
-              "sizeRange": [
-                0,
-                10
-              ],
-              "radiusRange": [
-                0,
-                50
-              ],
-              "heightRange": [
-                0,
-                500
-              ],
-              "elevationScale": 5,
-              "stroked": true,
-              "filled": true,
-              "enable3d": false,
-              "wireframe": false
-            },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "heightField": null,
-            "heightScale": "linear",
-            "radiusField": null,
-            "radiusScale": "linear"
-          }
-        },
-        {
-          "id": "xku09b",
-          "type": "icon",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "village co",
-            "color": [
-              248,
-              149,
-              112
-            ],
-            "columns": {
-              "lat": "latitude",
-              "lng": "longitude",
-              "icon": "village_co"
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
               ]
             },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
+            "visualChannels": {
+              "colorField": null,
+              "colorScale": "quantile",
+              "sizeField": null,
+              "sizeScale": "linear"
+            }
           },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "x8rdd5d",
-          "type": "icon",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "district c",
-            "color": [
-              130,
-              154,
-              227
-            ],
-            "columns": {
-              "lat": "latitude",
-              "lng": "longitude",
-              "icon": "district_c"
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
+          {
+            "id": "35uduj6",
+            "type": "point",
+            "config": {
+              "dataId": "sol_6859",
+              "label": "Star Village",
+              "color": [
+                248,
+                149,
+                112
+              ],
+              "columns": {
+                "lat": "starvillagelat",
+                "lng": "starvillagelng",
+                "altitude": null
               },
-              "radiusRange": [
-                0,
-                50
+              "isVisible": true,
+              "visConfig": {
+                "radius": 10,
+                "fixedRadius": false,
+                "opacity": 0.8,
+                "outline": false,
+                "thickness": 2,
+                "strokeColor": null,
+                "colorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "filled": true
+              },
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
               ]
             },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
+            "visualChannels": {
+              "colorField": null,
+              "colorScale": "quantile",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "sizeField": null,
+              "sizeScale": "linear"
+            }
           },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "xa7qhz",
-          "type": "icon",
-          "config": {
-            "dataId": "nee3684a",
-            "label": "district n",
-            "color": [
-              231,
-              159,
-              213
-            ],
-            "columns": {
-              "lat": "latitude",
-              "lng": "longitude",
-              "icon": "district_n"
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
+          {
+            "id": "v5p2njb",
+            "type": "point",
+            "config": {
+              "dataId": "sol_6859",
+              "label": "Branch",
+              "color": [
+                130,
+                154,
+                227
+              ],
+              "columns": {
+                "lat": "catchment_branch_lat",
+                "lng": "catchment_branch_lng",
+                "altitude": null
               },
-              "radiusRange": [
-                0,
-                50
+              "isVisible": true,
+              "visConfig": {
+                "radius": 20,
+                "fixedRadius": false,
+                "opacity": 0.8,
+                "outline": false,
+                "thickness": 2,
+                "strokeColor": null,
+                "colorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "filled": true
+              },
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
               ]
             },
-            "textLabel": [
-              {
-                "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
-                "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
-                "anchor": "start",
-                "alignment": "center"
-              }
-            ]
+            "visualChannels": {
+              "colorField": null,
+              "colorScale": "quantile",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "sizeField": null,
+              "sizeScale": "linear"
+            }
           },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
+          {
+            "id": "x5eqnoq",
+            "type": "geojson",
+            "config": {
+              "dataId": "sol_6859",
+              "label": "Star Pocket Boundaries",
+              "color": [
+                30,
+                150,
+                190
+              ],
+              "columns": {
+                "geojson": "geom"
+              },
+              "isVisible": true,
+              "visConfig": {
+                "opacity": 0.8,
+                "thickness": 0.5,
+                "strokeColor": [
+                  137,
+                  218,
+                  193
+                ],
+                "colorRange": {
+                  "name": "ColorBrewer RdGy-10",
+                  "type": "diverging",
+                  "category": "ColorBrewer",
+                  "colors": [
+                    "#67001f",
+                    "#b2182b",
+                    "#d6604d",
+                    "#f4a582",
+                    "#fddbc7",
+                    "#e0e0e0",
+                    "#bababa",
+                    "#878787",
+                    "#4d4d4d",
+                    "#1a1a1a"
+                  ],
+                  "reversed": false
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radius": 10,
+                "sizeRange": [
+                  0,
+                  10
+                ],
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "heightRange": [
+                  0,
+                  500
+                ],
+                "elevationScale": 5,
+                "stroked": true,
+                "filled": true,
+                "enable3d": false,
+                "wireframe": false
+              },
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
+              ]
+            },
+            "visualChannels": {
+              "colorField": {
+                "name": "label_star_pocket",
+                "type": "string"
+              },
+              "colorScale": "ordinal",
+              "sizeField": null,
+              "sizeScale": "linear",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "heightField": null,
+              "heightScale": "linear",
+              "radiusField": null,
+              "radiusScale": "linear"
+            }
+          },
+          {
+            "id": "o6yh5wr",
+            "type": "geojson",
+            "config": {
+              "dataId": "sol_6859",
+              "label": "Sector Boundaries",
+              "color": [
+                221,
+                178,
+                124
+              ],
+              "columns": {
+                "geojson": "geom"
+              },
+              "isVisible": true,
+              "visConfig": {
+                "opacity": 0.8,
+                "thickness": 1,
+                "strokeColor": null,
+                "colorRange": {
+                  "name": "Uber Viz Qualitative 3",
+                  "type": "qualitative",
+                  "category": "Uber",
+                  "colors": [
+                    "#12939A",
+                    "#DDB27C",
+                    "#88572C",
+                    "#FF991F",
+                    "#F15C17",
+                    "#223F9A",
+                    "#DA70BF",
+                    "#125C77",
+                    "#4DC19C",
+                    "#776E57",
+                    "#17B8BE",
+                    "#F6D18A",
+                    "#B7885E",
+                    "#FFCB99",
+                    "#F89570"
+                  ],
+                  "reversed": false
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radius": 10,
+                "sizeRange": [
+                  0,
+                  10
+                ],
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "heightRange": [
+                  0,
+                  500
+                ],
+                "elevationScale": 5,
+                "stroked": true,
+                "filled": true,
+                "enable3d": false,
+                "wireframe": false
+              },
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
+              ]
+            },
+            "visualChannels": {
+              "colorField": {
+                "name": "label_sector",
+                "type": "string"
+              },
+              "colorScale": "ordinal",
+              "sizeField": null,
+              "sizeScale": "linear",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "heightField": null,
+              "heightScale": "linear",
+              "radiusField": null,
+              "radiusScale": "linear"
+            }
+          }
+        ],
+        "interactionConfig": {
+          "tooltip": {
+            "fieldsToShow": {
+              "sol_6859": [
+                "census_nam",
+                "tehsil_nam",
+                "district_n",
+                "isstarpocket",
+                "issector",
+                "istownsector",
+                "label_star_pocket",
+                "label_sector"
+              ]
+            },
+            "enabled": true
+          },
+          "brush": {
+            "size": 0.5,
+            "enabled": false
+          }
+        },
+        "layerBlending": "normal",
+        "splitMaps": []
+      },
+      "mapState": {
+        "bearing": 0,
+        "dragRotate": false,
+        "latitude": 25.543514182232414,
+        "longitude": 75.50677832009048,
+        "pitch": 0,
+        "zoom": 10.359219605596262,
+        "isSplit": false
+      },
+      "mapStyle": {
+        "styleType": "twzetyv",
+        "topLayerGroups": {},
+        "visibleLayerGroups": {
+          "label": true,
+          "road": true,
+          "building": true,
+          "water": true
+        },
+        "threeDBuildingColor": [
+          220.15736132536304,
+          208.4561590323153,
+          188.24499143523275
+        ],
+        "mapStyles": {
+          "twzetyv": {
+            "accessToken": null,
+            "custom": true,
+            "icon": "data:image/png;base64,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",
+            "id": "twzetyv",
+            "label": "PinSight Light",
+            "url": "mapbox://styles/alokbansal/cjyy9wiza1vpl1cpg1trnxmtc"
           }
         }
-      ],
-      "interactionConfig": {
-        "tooltip": {
-          "fieldsToShow": {
-            "nee3684a": [
-              "village_co",
-              "census_nam",
-              "tehsil_cod",
-              "tehsil_nam",
-              "district_c"
-            ]
-          },
-          "enabled": true
-        },
-        "brush": {
-          "size": 0.5,
-          "enabled": false
-        }
-      },
-      "layerBlending": "normal",
-      "splitMaps": []
-    },
-    "mapState": {
-      "bearing": 0,
-      "dragRotate": false,
-      "latitude": 25.54921863744122,
-      "longitude": 75.6286255069793,
-      "pitch": 0,
-      "zoom": 10.226482569368493,
-      "isSplit": false
-    },
-    "mapStyle": {
-      "styleType": "dark",
-      "topLayerGroups": {},
-      "visibleLayerGroups": {
-        "label": true,
-        "road": true,
-        "border": false,
-        "building": true,
-        "water": true,
-        "land": true,
-        "3d building": false
-      },
-      "threeDBuildingColor": [
-        9.665468314072013,
-        17.18305478057247,
-        31.1442867897876
-      ],
-      "mapStyles": {}
+      }
     }
+  },
+  "info": {
+    "app": "kepler.gl",
+    "created_at": "Fri Aug 16 2019 17:42:39 GMT+0530 (India Standard Time)"
   }
 }

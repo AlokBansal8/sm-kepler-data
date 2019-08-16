@@ -7,7 +7,7 @@
           "id": "mzw6vg",
           "type": "point",
           "config": {
-            "dataId": "icici-town-village",
+            "dataId": "icici-town-villages",
             "label": "Village Point",
             "color": [
               255,
@@ -88,7 +88,7 @@
           "id": "pek5bt",
           "type": "point",
           "config": {
-            "dataId": "icici-town-village",
+            "dataId": "icici-town-villages",
             "label": "Branch",
             "color": [
               159,
@@ -169,7 +169,7 @@
           "id": "qdghjhs",
           "type": "line",
           "config": {
-            "dataId": "icici-town-village",
+            "dataId": "icici-town-villages",
             "label": "Branch to Village",
             "color": [
               146,
@@ -240,7 +240,7 @@
           "id": "zzzkij5",
           "type": "geojson",
           "config": {
-            "dataId": "icici-town-village",
+            "dataId": "icici-town-villages",
             "label": "Village Boundary",
             "color": [
               231,

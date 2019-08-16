@@ -8,7 +8,7 @@
           "id": "n8kmche",
           "type": "point",
           "config": {
-            "dataId": "sol-6859",
+            "dataId": "sol-6",
             "label": "Branch",
             "color": [
               218,
@@ -91,7 +91,7 @@
           "id": "50kx38n",
           "type": "point",
           "config": {
-            "dataId": "sol-6859",
+            "dataId": "sol-6",
             "label": "Star Village",
             "color": [
               34,
@@ -174,7 +174,7 @@
           "id": "5ahh1mn",
           "type": "geojson",
           "config": {
-            "dataId": "sol-6859",
+            "dataId": "sol-6",
             "label": "Boundary",
             "color": [
               77,
@@ -273,7 +273,7 @@
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "sol-6859": [
+            "sol-6": [
               "village_co",
               "census_nam",
               "tehsil_cod",

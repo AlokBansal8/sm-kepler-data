@@ -29,6 +29,7 @@
     "size": 19706,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.googleapis.com/lepton-icici/town_sector.csv"
+    "dataUrl": "https://storage.googleapis.com/lepton-icici/town_sector.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_config.json"
   }
 ]

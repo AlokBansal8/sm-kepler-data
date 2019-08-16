@@ -3,347 +3,11 @@
   "config": {
     "visState": {
       "filters": [],
-      "layers": [{
-          "id": "mzw6vg",
-          "type": "point",
-          "config": {
-            "dataId": "icici-town-villages",
-            "label": "Village Point",
-            "color": [
-              255,
-              203,
-              153
-            ],
-            "columns": {
-              "lat": "latitude",
-              "lng": "longitude",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 10,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [{
-              "field": null,
-              "color": [
-                255,
-                255,
-                255
-              ],
-              "size": 18,
-              "offset": [
-                0,
-                0
-              ],
-              "anchor": "start",
-              "alignment": "center"
-            }]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "pek5bt",
-          "type": "point",
-          "config": {
-            "dataId": "icici-town-villages",
-            "label": "Branch",
-            "color": [
-              159,
-              0,
-              0
-            ],
-            "columns": {
-              "lat": "ruralnearestbranchlatitude",
-              "lng": "ruralnearestbranchlongitude",
-              "altitude": null
-            },
-            "isVisible": false,
-            "visConfig": {
-              "radius": 20,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "strokeColor": null,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "filled": true
-            },
-            "textLabel": [{
-              "field": null,
-              "color": [
-                255,
-                255,
-                255
-              ],
-              "size": 18,
-              "offset": [
-                0,
-                0
-              ],
-              "anchor": "start",
-              "alignment": "center"
-            }]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "qdghjhs",
-          "type": "line",
-          "config": {
-            "dataId": "icici-town-villages",
-            "label": "Branch to Village",
-            "color": [
-              146,
-              38,
-              198
-            ],
-            "columns": {
-              "lat0": "latitude",
-              "lng0": "longitude",
-              "lat1": "ruralnearestbranchlatitude",
-              "lng1": "ruralnearestbranchlongitude"
-            },
-            "isVisible": false,
-            "visConfig": {
-              "opacity": 0.8,
-              "thickness": 2,
-              "colorRange": {
-                "name": "ColorBrewer RdYlGn-10",
-                "type": "diverging",
-                "category": "ColorBrewer",
-                "colors": [
-                  "#006837",
-                  "#1a9850",
-                  "#66bd63",
-                  "#a6d96a",
-                  "#d9ef8b",
-                  "#fee08b",
-                  "#fdae61",
-                  "#f46d43",
-                  "#d73027",
-                  "#a50026"
-                ],
-                "reversed": true
-              },
-              "sizeRange": [
-                0,
-                10
-              ],
-              "targetColor": null
-            },
-            "textLabel": [{
-              "field": null,
-              "color": [
-                255,
-                255,
-                255
-              ],
-              "size": 18,
-              "offset": [
-                0,
-                0
-              ],
-              "anchor": "start",
-              "alignment": "center"
-            }]
-          },
-          "visualChannels": {
-            "colorField": {
-              "name": "ruralnearestbranchdistance",
-              "type": "real"
-            },
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "zzzkij5",
-          "type": "geojson",
-          "config": {
-            "dataId": "icici-town-villages",
-            "label": "Village Boundary",
-            "color": [
-              231,
-              159,
-              213
-            ],
-            "columns": {
-              "geojson": "geom"
-            },
-            "isVisible": false,
-            "visConfig": {
-              "opacity": 0.8,
-              "thickness": 0.5,
-              "strokeColor": [
-                30,
-                150,
-                190
-              ],
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "strokeColorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radius": 10,
-              "sizeRange": [
-                0,
-                10
-              ],
-              "radiusRange": [
-                0,
-                50
-              ],
-              "heightRange": [
-                0,
-                500
-              ],
-              "elevationScale": 5,
-              "stroked": true,
-              "filled": true,
-              "enable3d": false,
-              "wireframe": false
-            },
-            "textLabel": [{
-              "field": null,
-              "color": [
-                255,
-                255,
-                255
-              ],
-              "size": 18,
-              "offset": [
-                0,
-                0
-              ],
-              "anchor": "start",
-              "alignment": "center"
-            }]
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
-            "heightField": null,
-            "heightScale": "linear",
-            "radiusField": null,
-            "radiusScale": "linear"
-          }
-        }
-      ],
+      "layers": [],
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "vnai05z3w": [
-              "village_co",
-              "census_nam",
-              "tehsil_cod",
-              "tehsil_nam",
-              "district_c"
-            ]
+            "icici-town-villages": []
           },
           "enabled": true
         },
@@ -358,8 +22,8 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 20.1939125,
-      "longitude": 79.223046,
+      "latitude": 20.8504555,
+      "longitude": 78.9274459,
       "pitch": 0,
       "zoom": 5,
       "isSplit": false
@@ -370,12 +34,17 @@
       "visibleLayerGroups": {
         "label": true,
         "road": true,
-        "border": true,
+        "border": false,
         "building": true,
         "water": true,
         "land": true,
         "3d building": false
       },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
       "mapStyles": {}
     }
   }

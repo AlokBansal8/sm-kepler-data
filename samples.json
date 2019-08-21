@@ -4,10 +4,21 @@
     "label": "Branch 6859",
     "queryType": "sample",
     "description": "Villages mapped to ICICI branch with solid 6859",
-    "size": 19706,
+    "size": 10+,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
     "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/data.csv",
     "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/config.json"
+  },
+  {
+    "id": "sol_6860",
+    "label": "Branch 6860",
+    "queryType": "sample",
+    "description": "Villages mapped to ICICI branch with solid 6859",
+    "size": 10+,
+    "visible": true,
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6860/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6860/config.json"
   }
 ]

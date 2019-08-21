@@ -8,7 +8,7 @@
           "id": "f04qiy",
           "type": "point",
           "config": {
-            "dataId": "sol_6859",
+            "dataId": "sol_6861",
             "label": "Name",
             "color": [
               30,
@@ -94,7 +94,7 @@
           "id": "u9txixi",
           "type": "point",
           "config": {
-            "dataId": "sol_6859",
+            "dataId": "sol_6861",
             "label": "Catchment Branch",
             "color": [
               46,
@@ -177,7 +177,7 @@
           "id": "7ycd3on",
           "type": "geojson",
           "config": {
-            "dataId": "sol_6859",
+            "dataId": "sol_6861",
             "label": "Star Pocket Pool",
             "color": [
               231,
@@ -276,7 +276,7 @@
           "id": "05rqlc7",
           "type": "geojson",
           "config": {
-            "dataId": "sol_6859",
+            "dataId": "sol_6861",
             "label": "Sector Pool",
             "color": [
               30,
@@ -375,7 +375,7 @@
           "id": "y0nonyp",
           "type": "geojson",
           "config": {
-            "dataId": "sol_6859",
+            "dataId": "sol_6861",
             "label": "Town Sector",
             "color": [
               248,
@@ -475,7 +475,7 @@
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "sol_6859": [
+            "sol_6861": [
               "village_name",
               "tehsil_name",
               "district_name"
@@ -494,8 +494,8 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 25.539770475784003,
-      "longitude": 75.599616569129,
+      "latitude": 26.490633,
+      "longitude": 76.7342377,
       "pitch": 0,
       "zoom": 9.5,
       "isSplit": false

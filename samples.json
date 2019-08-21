@@ -1,38 +1,5 @@
 [
   {
-    "id": "icici-sector-villages",
-    "label": "ICICI Sector Villages",
-    "queryType": "sample",
-    "description": "Villages falling in sector mapped to ICICI rural branches.",
-    "size": 109471,
-    "visible": true,
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.googleapis.com/lepton-icici/sector.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sector_config.json"
-  },
-  {
-    "id": "icici-star-villages",
-    "label": "ICICI Star Pocket Villages",
-    "queryType": "sample",
-    "description": "Villages falling in star pockets mapped to ICICI rural branches.",
-    "size": 38144,
-    "visible": true,
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.googleapis.com/lepton-icici/star_pocket.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/star_config.json"
-  },
-  {
-    "id": "icici-town-villages",
-    "label": "ICICI Town Sector Villages",
-    "queryType": "sample",
-    "description": "Villages falling in town sector mapped to ICICI rural branches.",
-    "size": 19706,
-    "visible": true,
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.googleapis.com/lepton-icici/town_sector.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/town_config.json"
-  },
-  {
     "id": "sol_6859",
     "label": "Branch 6859",
     "queryType": "sample",
@@ -40,7 +7,7 @@
     "size": 19706,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/sol_6859/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/sol_6859/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/config.json"
   }
 ]

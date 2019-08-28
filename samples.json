@@ -18,8 +18,8 @@
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.cloud.google.com/lepton-icici/sol_6860/data.csv",
-    "configUrl": "https://storage.cloud.google.com/lepton-icici/sol_6860/config.json"
+    "dataUrl": "https://storage.googleapis.com/lepton-icici/sol_6860/data.csv",
+    "configUrl": "https://storage.googleapis.com/lepton-icici/sol_6860/config.json"
   },
   {
     "id": "sol_6861",

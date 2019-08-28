@@ -1,9 +1,9 @@
 [
   {
-    "id": "sol_6859",
-    "label": "Branch 6859",
+    "id": "sol_1742",
+    "label": "Branch 1742",
     "queryType": "sample",
-    "description": "Villages mapped to ICICI branch with solid 6859",
+    "description": "Villages mapped to ICICI branch with solid 1742",
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",

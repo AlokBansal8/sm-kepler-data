@@ -7,8 +7,8 @@
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6859/config.json"
+    "dataUrl": "https://storage.cloud.google.com/lepton-icici/sol_6859/data.csv",
+    "configUrl": "https://storage.cloud.google.com/lepton-icici/sol_6859/config.json"
   },
   {
     "id": "sol_6860",
@@ -18,8 +18,8 @@
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6860/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6860/config.json"
+    "dataUrl": "https://storage.cloud.google.com/lepton-icici/sol_6860/data.csv",
+    "configUrl": "https://storage.cloud.google.com/lepton-icici/sol_6860/config.json"
   },
   {
     "id": "sol_6861",
@@ -29,7 +29,7 @@
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6861/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_6861/config.json"
+    "dataUrl": "https://storage.cloud.google.com/lepton-icici/sol_6861/data.csv",
+    "configUrl": "https://storage.cloud.google.com/lepton-icici/sol_6861/config.json"
   }
 ]

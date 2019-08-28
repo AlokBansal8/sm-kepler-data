@@ -7,8 +7,8 @@
     "size": 10,
     "visible": true,
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "dataUrl": "https://storage.cloud.google.com/lepton-icici/sol_6859/data.csv",
-    "configUrl": "https://storage.cloud.google.com/lepton-icici/sol_6859/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_1742/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/AlokBansal8/sm-kepler-data/master/icici/sol_1742/config.json"
   },
   {
     "id": "sol_6860",

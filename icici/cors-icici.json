@@ -1,8 +1,6 @@
-[
-    {
-      "origin": ["http://localhost:9199"],
-      "responseHeader": ["Content-Type"],
-      "method": ["GET"],
-      "maxAgeSeconds": 3
-    }
-]
+[{
+  "origin": ["http://localhost:9199", "https://smartmarket-icici-dot-sm-trial.appspot.com"],
+  "responseHeader": ["Content-Type"],
+  "method": ["GET"],
+  "maxAgeSeconds": 3
+}]
